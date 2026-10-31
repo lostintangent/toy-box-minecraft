@@ -1,0 +1,22 @@
+{
+  "name": "toy-box-minecraft",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "description": "A Minecraft workshop connected to a Toy Box channel.",
+  "scripts": {
+    "dev": "bun tools/launch.ts",
+    "build": "bun tools/gradle.ts build",
+    "test": "bun test ./tools/test",
+    "demo": "bun tools/demo-server.ts",
+    "capture": "bun tools/capture.ts",
+    "state": "bun tools/devcli.ts state",
+    "fixture": "bun tools/export-fixture.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.3",
+    "@types/pngjs": "^6.0.5",
+    "pngjs": "^7.0.0"
+  }
+}

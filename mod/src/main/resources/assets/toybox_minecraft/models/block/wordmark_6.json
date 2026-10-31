@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "plaque": "toybox_minecraft:block/wordmark",
+    "edge": "toybox_minecraft:block/walnut_trim",
+    "particle": "toybox_minecraft:block/walnut_trim"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        14
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "up": {
+          "texture": "#edge"
+        },
+        "down": {
+          "texture": "#edge"
+        },
+        "east": {
+          "texture": "#edge"
+        },
+        "west": {
+          "texture": "#edge"
+        },
+        "south": {
+          "texture": "#edge"
+        },
+        "north": {
+          "texture": "#plaque",
+          "uv": [
+            10.666666666666666,
+            0,
+            12.444444444444445,
+            8
+          ]
+        }
+      }
+    }
+  ]
+}

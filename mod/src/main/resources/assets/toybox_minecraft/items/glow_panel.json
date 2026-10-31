@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "toybox_minecraft:block/glow_panel"
+  }
+}

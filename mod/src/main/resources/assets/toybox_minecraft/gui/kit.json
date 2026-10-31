@@ -1,0 +1,593 @@
+{
+  "version": 1,
+  "atlas_prefix": "toybox_minecraft:kit/",
+  "how_to_draw": "graphics.blitSprite(RenderPipelines.GUI_TEXTURED, Identifier.fromNamespaceAndPath(\"toybox_minecraft\", \"kit/<name>\"), x, y, w, h) with graphics = net.minecraft.client.gui.GuiGraphicsExtractor (Minecraft 26.3, Mojang names). Sprites with a 'slice' entry ship <name>.png.mcmeta (gui.scaling nine_slice) so vanilla nine-slices them; the rest (icons, dots, bubble tail, checkboxes) are fixed-size and drawn at their own size.",
+  "gui_scale_note": "Sprites are authored at 1 texel = 1 GUI pixel; never scale by non-integers.",
+  "sprites": {
+    "bubble": {
+      "id": "toybox_minecraft:kit/bubble",
+      "size": [
+        16,
+        16
+      ],
+      "note": "Speech bubble body (billboard). Draw bubble_tail centred under it.",
+      "slice": {
+        "left": 5,
+        "top": 5,
+        "right": 5,
+        "bottom": 5
+      },
+      "scaling": "nine_slice",
+      "content_padding": {
+        "left": 6,
+        "top": 4,
+        "right": 6,
+        "bottom": 5
+      },
+      "text_color": "#25324B"
+    },
+    "bubble_tail": {
+      "id": "toybox_minecraft:kit/bubble_tail",
+      "size": [
+        9,
+        5
+      ],
+      "note": "Speech bubble tail; overlap its first row with the bubble's bottom border."
+    },
+    "button": {
+      "id": "toybox_minecraft:kit/button",
+      "size": [
+        32,
+        20
+      ],
+      "note": "button: normal",
+      "slice": {
+        "left": 4,
+        "top": 3,
+        "right": 4,
+        "bottom": 5
+      },
+      "scaling": "nine_slice",
+      "content_padding": {
+        "left": 6,
+        "top": 5,
+        "right": 6,
+        "bottom": 6
+      },
+      "text_color": "#25324B"
+    },
+    "button_disabled": {
+      "id": "toybox_minecraft:kit/button_disabled",
+      "size": [
+        32,
+        20
+      ],
+      "note": "button: disabled",
+      "slice": {
+        "left": 4,
+        "top": 3,
+        "right": 4,
+        "bottom": 5
+      },
+      "scaling": "nine_slice",
+      "content_padding": {
+        "left": 6,
+        "top": 5,
+        "right": 6,
+        "bottom": 6
+      },
+      "text_color": "#A39B8E"
+    },
+    "button_hover": {
+      "id": "toybox_minecraft:kit/button_hover",
+      "size": [
+        32,
+        20
+      ],
+      "note": "button: hover (brass outline)",
+      "slice": {
+        "left": 4,
+        "top": 3,
+        "right": 4,
+        "bottom": 5
+      },
+      "scaling": "nine_slice",
+      "content_padding": {
+        "left": 6,
+        "top": 5,
+        "right": 6,
+        "bottom": 6
+      },
+      "text_color": "#25324B"
+    },
+    "button_primary": {
+      "id": "toybox_minecraft:kit/button_primary",
+      "size": [
+        32,
+        20
+      ],
+      "note": "button_primary: normal",
+      "slice": {
+        "left": 4,
+        "top": 3,
+        "right": 4,
+        "bottom": 5
+      },
+      "scaling": "nine_slice",
+      "content_padding": {
+        "left": 6,
+        "top": 5,
+        "right": 6,
+        "bottom": 6
+      },
+      "text_color": "#FFFDF6"
+    },
+    "button_primary_disabled": {
+      "id": "toybox_minecraft:kit/button_primary_disabled",
+      "size": [
+        32,
+        20
+      ],
+      "note": "button_primary: disabled",
+      "slice": {
+        "left": 4,
+        "top": 3,
+        "right": 4,
+        "bottom": 5
+      },
+      "scaling": "nine_slice",
+      "content_padding": {
+        "left": 6,
+        "top": 5,
+        "right": 6,
+        "bottom": 6
+      },
+      "text_color": "#FFF7E8"
+    },
+    "button_primary_hover": {
+      "id": "toybox_minecraft:kit/button_primary_hover",
+      "size": [
+        32,
+        20
+      ],
+      "note": "button_primary: hover (brass outline)",
+      "slice": {
+        "left": 4,
+        "top": 3,
+        "right": 4,
+        "bottom": 5
+      },
+      "scaling": "nine_slice",
+      "content_padding": {
+        "left": 6,
+        "top": 5,
+        "right": 6,
+        "bottom": 6
+      },
+      "text_color": "#FFFDF6"
+    },
+    "card_blocked": {
+      "id": "toybox_minecraft:kit/card_blocked",
+      "size": [
+        24,
+        24
+      ],
+      "note": "Task card (blocked): status stripe uses the error ramp.",
+      "slice": {
+        "left": 5,
+        "top": 4,
+        "right": 4,
+        "bottom": 5
+      },
+      "scaling": "nine_slice",
+      "content_padding": {
+        "left": 7,
+        "top": 5,
+        "right": 5,
+        "bottom": 6
+      },
+      "text_color": "#25324B"
+    },
+    "card_doing": {
+      "id": "toybox_minecraft:kit/card_doing",
+      "size": [
+        24,
+        24
+      ],
+      "note": "Task card (doing): status stripe uses the working ramp.",
+      "slice": {
+        "left": 5,
+        "top": 4,
+        "right": 4,
+        "bottom": 5
+      },
+      "scaling": "nine_slice",
+      "content_padding": {
+        "left": 7,
+        "top": 5,
+        "right": 5,
+        "bottom": 6
+      },
+      "text_color": "#25324B"
+    },
+    "card_done": {
+      "id": "toybox_minecraft:kit/card_done",
+      "size": [
+        24,
+        24
+      ],
+      "note": "Task card (done): status stripe uses the done ramp.",
+      "slice": {
+        "left": 5,
+        "top": 4,
+        "right": 4,
+        "bottom": 5
+      },
+      "scaling": "nine_slice",
+      "content_padding": {
+        "left": 7,
+        "top": 5,
+        "right": 5,
+        "bottom": 6
+      },
+      "text_color": "#596680"
+    },
+    "card_todo": {
+      "id": "toybox_minecraft:kit/card_todo",
+      "size": [
+        24,
+        24
+      ],
+      "note": "Task card (todo): status stripe uses the idle ramp.",
+      "slice": {
+        "left": 5,
+        "top": 4,
+        "right": 4,
+        "bottom": 5
+      },
+      "scaling": "nine_slice",
+      "content_padding": {
+        "left": 7,
+        "top": 5,
+        "right": 5,
+        "bottom": 6
+      },
+      "text_color": "#25324B"
+    },
+    "checkbox": {
+      "id": "toybox_minecraft:kit/checkbox",
+      "size": [
+        10,
+        10
+      ],
+      "note": "Checkbox."
+    },
+    "checkbox_checked": {
+      "id": "toybox_minecraft:kit/checkbox_checked",
+      "size": [
+        10,
+        10
+      ],
+      "note": "Checkbox."
+    },
+    "divider": {
+      "id": "toybox_minecraft:kit/divider",
+      "size": [
+        16,
+        3
+      ],
+      "note": "Horizontal rule; stretch horizontally.",
+      "slice": {
+        "left": 4,
+        "top": 1,
+        "right": 4,
+        "bottom": 1
+      },
+      "scaling": "nine_slice"
+    },
+    "dot_done": {
+      "id": "toybox_minecraft:kit/dot_done",
+      "size": [
+        7,
+        7
+      ],
+      "note": "Status dot: done #8FA98B"
+    },
+    "dot_idle": {
+      "id": "toybox_minecraft:kit/dot_idle",
+      "size": [
+        7,
+        7
+      ],
+      "note": "Status dot: idle #9C9488"
+    },
+    "dot_waiting": {
+      "id": "toybox_minecraft:kit/dot_waiting",
+      "size": [
+        7,
+        7
+      ],
+      "note": "Status dot: waiting #D97757"
+    },
+    "dot_waiting_halo": {
+      "id": "toybox_minecraft:kit/dot_waiting_halo",
+      "size": [
+        11,
+        11
+      ],
+      "note": "Status dot with halo (animate alpha for pulsing): waiting"
+    },
+    "dot_working": {
+      "id": "toybox_minecraft:kit/dot_working",
+      "size": [
+        7,
+        7
+      ],
+      "note": "Status dot: working #2FA3A0"
+    },
+    "header": {
+      "id": "toybox_minecraft:kit/header",
+      "size": [
+        16,
+        14
+      ],
+      "note": "Title strip with clay underline; place at the top inside a panel.",
+      "slice": {
+        "left": 2,
+        "top": 2,
+        "right": 2,
+        "bottom": 3
+      },
+      "scaling": "nine_slice",
+      "content_padding": {
+        "left": 6,
+        "top": 2,
+        "right": 6,
+        "bottom": 4
+      },
+      "text_color": "#25324B"
+    },
+    "icon_channels": {
+      "id": "toybox_minecraft:kit/icon_channels",
+      "size": [
+        12,
+        12
+      ],
+      "note": "Tool icon 'channels' (12x12, ink + one accent)."
+    },
+    "icon_decision": {
+      "id": "toybox_minecraft:kit/icon_decision",
+      "size": [
+        12,
+        12
+      ],
+      "note": "Tool icon 'decision' (12x12, ink + one accent)."
+    },
+    "icon_edit": {
+      "id": "toybox_minecraft:kit/icon_edit",
+      "size": [
+        12,
+        12
+      ],
+      "note": "Tool icon 'edit' (12x12, ink + one accent)."
+    },
+    "icon_message": {
+      "id": "toybox_minecraft:kit/icon_message",
+      "size": [
+        12,
+        12
+      ],
+      "note": "Tool icon 'message' (12x12, ink + one accent)."
+    },
+    "icon_open": {
+      "id": "toybox_minecraft:kit/icon_open",
+      "size": [
+        12,
+        12
+      ],
+      "note": "Tool icon 'open' (12x12, ink + one accent)."
+    },
+    "icon_preview": {
+      "id": "toybox_minecraft:kit/icon_preview",
+      "size": [
+        12,
+        12
+      ],
+      "note": "Tool icon 'preview' (12x12, ink + one accent)."
+    },
+    "icon_read": {
+      "id": "toybox_minecraft:kit/icon_read",
+      "size": [
+        12,
+        12
+      ],
+      "note": "Tool icon 'read' (12x12, ink + one accent)."
+    },
+    "icon_routines": {
+      "id": "toybox_minecraft:kit/icon_routines",
+      "size": [
+        12,
+        12
+      ],
+      "note": "Tool icon 'routines' (12x12, ink + one accent)."
+    },
+    "icon_tasks": {
+      "id": "toybox_minecraft:kit/icon_tasks",
+      "size": [
+        12,
+        12
+      ],
+      "note": "Tool icon 'tasks' (12x12, ink + one accent)."
+    },
+    "icon_team": {
+      "id": "toybox_minecraft:kit/icon_team",
+      "size": [
+        12,
+        12
+      ],
+      "note": "Tool icon 'team' (12x12, ink + one accent)."
+    },
+    "nameplate": {
+      "id": "toybox_minecraft:kit/nameplate",
+      "size": [
+        16,
+        12
+      ],
+      "note": "In-world nameplate pill (translucent ink, alpha 220 so names keep >= 4.5:1 even over a bright wall).",
+      "slice": {
+        "left": 3,
+        "top": 3,
+        "right": 3,
+        "bottom": 3
+      },
+      "scaling": "nine_slice",
+      "content_padding": {
+        "left": 4,
+        "top": 2,
+        "right": 4,
+        "bottom": 1
+      },
+      "text_color": "#FFF7E8"
+    },
+    "panel_paper": {
+      "id": "toybox_minecraft:kit/panel_paper",
+      "size": [
+        32,
+        32
+      ],
+      "note": "Matte paper panel, soft drop shadow. Main window background.",
+      "slice": {
+        "left": 6,
+        "top": 6,
+        "right": 6,
+        "bottom": 8
+      },
+      "scaling": "nine_slice",
+      "content_padding": {
+        "left": 8,
+        "top": 8,
+        "right": 8,
+        "bottom": 9
+      },
+      "text_color": "#25324B"
+    },
+    "pill": {
+      "id": "toybox_minecraft:kit/pill",
+      "size": [
+        12,
+        11
+      ],
+      "note": "Badge/pill for tags (@agent, branch, file).",
+      "slice": {
+        "left": 4,
+        "top": 4,
+        "right": 4,
+        "bottom": 4
+      },
+      "scaling": "nine_slice",
+      "content_padding": {
+        "left": 5,
+        "top": 2,
+        "right": 5,
+        "bottom": 1
+      },
+      "text_color": "#25324B"
+    },
+    "progress_fill_brass": {
+      "id": "toybox_minecraft:kit/progress_fill_brass",
+      "size": [
+        16,
+        6
+      ],
+      "note": "Progress bar fill (brass); draw over the track, width = p * w.",
+      "slice": {
+        "left": 2,
+        "top": 2,
+        "right": 2,
+        "bottom": 2
+      },
+      "scaling": "nine_slice"
+    },
+    "progress_track": {
+      "id": "toybox_minecraft:kit/progress_track",
+      "size": [
+        16,
+        6
+      ],
+      "note": "Progress bar track (6px tall).",
+      "slice": {
+        "left": 2,
+        "top": 2,
+        "right": 2,
+        "bottom": 2
+      },
+      "scaling": "nine_slice"
+    },
+    "text_field": {
+      "id": "toybox_minecraft:kit/text_field",
+      "size": [
+        16,
+        16
+      ],
+      "note": "Single-line input (console). Caret: ink 1px, blink 500ms.",
+      "slice": {
+        "left": 3,
+        "top": 3,
+        "right": 3,
+        "bottom": 3
+      },
+      "scaling": "nine_slice",
+      "content_padding": {
+        "left": 5,
+        "top": 4,
+        "right": 5,
+        "bottom": 3
+      },
+      "text_color": "#25324B"
+    },
+    "text_field_focused": {
+      "id": "toybox_minecraft:kit/text_field_focused",
+      "size": [
+        16,
+        16
+      ],
+      "note": "Single-line input (console). Caret: ink 1px, blink 500ms.",
+      "slice": {
+        "left": 3,
+        "top": 3,
+        "right": 3,
+        "bottom": 3
+      },
+      "scaling": "nine_slice",
+      "content_padding": {
+        "left": 5,
+        "top": 4,
+        "right": 5,
+        "bottom": 3
+      },
+      "text_color": "#25324B"
+    },
+    "tooltip": {
+      "id": "toybox_minecraft:kit/tooltip",
+      "size": [
+        16,
+        16
+      ],
+      "note": "Dark ink tooltip with a brass top rule. Text cream (ui.panel).",
+      "slice": {
+        "left": 4,
+        "top": 4,
+        "right": 4,
+        "bottom": 4
+      },
+      "scaling": "nine_slice",
+      "content_padding": {
+        "left": 5,
+        "top": 5,
+        "right": 5,
+        "bottom": 4
+      },
+      "text_color": "#FFF7E8"
+    }
+  }
+}

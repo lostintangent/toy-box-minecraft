@@ -1,0 +1,270 @@
+{
+  "name": "Toy Box",
+  "version": 2,
+  "notes": "Toy Box: cream shells, birch surfaces, deep ink frames, coral connectors and mint inserts. Historical resource keys remain stable for Minecraft compatibility. Every shipping colour comes from this file.",
+  "colors": {
+    "cream": "#FFF7E8",
+    "paper": "#F5ECD9",
+    "clay": "#F47D5A",
+    "clay_dark": "#D45C42",
+    "walnut": "#273554",
+    "brass": "#F49A64",
+    "sage": "#9BCDB8",
+    "ink": "#25324B",
+    "teal": "#2FA3A0",
+    "white": "#FFFFFF"
+  },
+  "status": {
+    "idle": "#9C9488",
+    "thinking": "#C9A227",
+    "working": "#2FA3A0",
+    "waiting": "#D97757",
+    "error": "#C2413B",
+    "done": "#8FA98B"
+  },
+  "ramps": {
+    "cream": {
+      "base": 1,
+      "tones": [
+        "#FFFDF6",
+        "#FFF7E8",
+        "#EBE2D1",
+        "#CFC4AF"
+      ]
+    },
+    "paper": {
+      "base": 1,
+      "tones": [
+        "#FFFAEE",
+        "#F5ECD9",
+        "#E0D5C0",
+        "#BBAF98"
+      ]
+    },
+    "clay": {
+      "base": 1,
+      "tones": [
+        "#FFB69B",
+        "#F47D5A",
+        "#D45C42",
+        "#9D3C32"
+      ]
+    },
+    "walnut": {
+      "base": 3,
+      "tones": [
+        "#6E7A9F",
+        "#506187",
+        "#35466D",
+        "#273554",
+        "#1C2842",
+        "#142038"
+      ]
+    },
+    "brass": {
+      "base": 2,
+      "tones": [
+        "#FFD3A9",
+        "#FFB781",
+        "#F49A64",
+        "#C96A46",
+        "#8D4334"
+      ]
+    },
+    "sage": {
+      "base": 1,
+      "tones": [
+        "#D0EFE1",
+        "#9BCDB8",
+        "#6EA88F",
+        "#4F7F70"
+      ]
+    },
+    "ink": {
+      "base": 2,
+      "tones": [
+        "#596481",
+        "#3D4B69",
+        "#25324B",
+        "#18243A"
+      ]
+    },
+    "teal": {
+      "base": 1,
+      "tones": [
+        "#80D2CD",
+        "#2FA3A0",
+        "#23807E",
+        "#195E5D"
+      ]
+    },
+    "oak": {
+      "base": 2,
+      "tones": [
+        "#FFF2CE",
+        "#EFE0B3",
+        "#E4D09F",
+        "#C9B27F",
+        "#A48B60"
+      ]
+    },
+    "birch": {
+      "base": 1,
+      "tones": [
+        "#FFF7D9",
+        "#EEDFB7",
+        "#D6C38F",
+        "#B79E6C"
+      ]
+    },
+    "plaster": {
+      "base": 1,
+      "tones": [
+        "#FFFDF7",
+        "#FAF3E5",
+        "#EBE3D4",
+        "#D0C5B1"
+      ]
+    },
+    "terracotta": {
+      "base": 1,
+      "tones": [
+        "#E99872",
+        "#D57A52",
+        "#BA613F",
+        "#964B30",
+        "#723925"
+      ]
+    },
+    "glass": {
+      "base": 1,
+      "tones": [
+        "#F5FFF9",
+        "#E8F5ED",
+        "#CEE9DD",
+        "#AACDBC"
+      ]
+    },
+    "glow": {
+      "base": 1,
+      "tones": [
+        "#FFFEF5",
+        "#FFF6DE",
+        "#E7F4DB",
+        "#C8E4CD"
+      ]
+    },
+    "screen_off": {
+      "base": 2,
+      "tones": [
+        "#3B4C67",
+        "#2B3D57",
+        "#1D2D45",
+        "#142238"
+      ]
+    },
+    "screen_on": {
+      "base": 1,
+      "tones": [
+        "#FFFDF5",
+        "#F4F2E9",
+        "#E9E8DD",
+        "#CAD3CB"
+      ]
+    },
+    "screen_glow": {
+      "base": 2,
+      "tones": [
+        "#456577",
+        "#314B61",
+        "#293D54",
+        "#203147"
+      ]
+    },
+    "graphite": {
+      "base": 1,
+      "tones": [
+        "#73809B",
+        "#596680",
+        "#3E4B65",
+        "#2C3952"
+      ]
+    },
+    "stone": {
+      "base": 1,
+      "tones": [
+        "#D8D2C8",
+        "#BFB8AC",
+        "#A39B8E",
+        "#857D71"
+      ]
+    }
+  },
+  "status_ramps": {
+    "idle": [
+      "#C4BDB2",
+      "#9C9488",
+      "#7C756A",
+      "#5E5850"
+    ],
+    "thinking": [
+      "#F2D873",
+      "#C9A227",
+      "#9E7D1C",
+      "#6E5615"
+    ],
+    "working": [
+      "#8BDAD5",
+      "#2FA3A0",
+      "#23807E",
+      "#195E5D"
+    ],
+    "waiting": [
+      "#F4A585",
+      "#D97757",
+      "#B4553A",
+      "#8C3E2B"
+    ],
+    "error": [
+      "#E8786F",
+      "#C2413B",
+      "#9A2F2B",
+      "#6E211F"
+    ],
+    "done": [
+      "#C6D8C1",
+      "#8FA98B",
+      "#6F8B6D",
+      "#536B54"
+    ]
+  },
+  "ui": {
+    "panel": "#FFF7E8",
+    "panel_hi": "#FFFDF6",
+    "panel_shade": "#EBE2D1",
+    "panel_edge": "#DED4BF",
+    "paper_deep": "#BBAF98",
+    "edge": "#A5AEC0",
+    "control_rim": "#7986A0",
+    "thumb": "#C1CAD5",
+    "inset": "#F5ECD9",
+    "text": "#25324B",
+    "text_muted": "#596680",
+    "highlight": "#F47D5A",
+    "primary_shade": "#DB684B",
+    "primary_rim": "#8E4136",
+    "primary_disabled": "#DABCB0",
+    "primary_disabled_rim": "#BBAA9E",
+    "field_focus": "#FFD6B7",
+    "tooltip": "#25324B",
+    "nameplate": "#18243AEC",
+    "border": "#F49A64",
+    "shadow": "#18243A"
+  },
+  "toy": {
+    "shell": "#FFF7E8",
+    "visor": "#18243A",
+    "coral": "#F47D5A",
+    "mint": "#9BCDB8"
+  }
+}

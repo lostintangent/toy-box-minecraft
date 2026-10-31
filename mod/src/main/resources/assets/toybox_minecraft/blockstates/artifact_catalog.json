@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "toybox_minecraft:block/artifact_catalog"
+    },
+    "facing=east": {
+      "model": "toybox_minecraft:block/artifact_catalog",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "toybox_minecraft:block/artifact_catalog",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "toybox_minecraft:block/artifact_catalog",
+      "y": 270
+    }
+  }
+}

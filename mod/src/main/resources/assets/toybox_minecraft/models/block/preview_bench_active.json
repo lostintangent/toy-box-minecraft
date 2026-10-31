@@ -1,0 +1,72 @@
+{
+  "ambientocclusion": false,
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "toybox_minecraft:block/preview_bench_side",
+    "front": "toybox_minecraft:block/preview_bench_front",
+    "side": "toybox_minecraft:block/preview_bench_side",
+    "top": "toybox_minecraft:block/preview_bench_top",
+    "bottom": "toybox_minecraft:block/artifact_shelf_top",
+    "glow": "toybox_minecraft:block/preview_bench_top_emissive"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#front",
+          "cullface": "north"
+        },
+        "south": {
+          "texture": "#side",
+          "cullface": "south"
+        },
+        "east": {
+          "texture": "#side",
+          "cullface": "east"
+        },
+        "west": {
+          "texture": "#side",
+          "cullface": "west"
+        },
+        "up": {
+          "texture": "#top",
+          "cullface": "up"
+        },
+        "down": {
+          "texture": "#bottom",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "up": {
+          "texture": "#glow",
+          "cullface": "up"
+        }
+      },
+      "shade_direction_override": "up",
+      "light_emission": 15
+    }
+  ]
+}

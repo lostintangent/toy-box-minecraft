@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+.venv/
+__pycache__/
+
+# Build output: Gradle, and the art pipeline's staging tree (sync.py copies it into mod/)
+build/
+.gradle/
+assets-src/out/
+
+# Minecraft runtime state: dev saves, config, screenshots and logs
+run/
+logs/
+*.log
+
+# Local captures and machine-specific files
+/artifacts/
+.claude/
+.env
+.DS_Store

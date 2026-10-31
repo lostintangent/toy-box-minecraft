@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "toybox_minecraft:block/glow_panel"
+    }
+  }
+}

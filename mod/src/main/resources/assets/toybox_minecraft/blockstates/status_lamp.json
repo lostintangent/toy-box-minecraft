@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "status=off": {
+      "model": "toybox_minecraft:block/status_lamp_off"
+    },
+    "status=idle": {
+      "model": "toybox_minecraft:block/status_lamp_idle"
+    },
+    "status=thinking": {
+      "model": "toybox_minecraft:block/status_lamp_thinking"
+    },
+    "status=working": {
+      "model": "toybox_minecraft:block/status_lamp_working"
+    },
+    "status=waiting": {
+      "model": "toybox_minecraft:block/status_lamp_waiting"
+    },
+    "status=error": {
+      "model": "toybox_minecraft:block/status_lamp_error"
+    },
+    "status=done": {
+      "model": "toybox_minecraft:block/status_lamp_done"
+    }
+  }
+}

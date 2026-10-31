@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "toybox_minecraft:block/walnut_trim",
+    "end": "toybox_minecraft:block/walnut_panel"
+  }
+}

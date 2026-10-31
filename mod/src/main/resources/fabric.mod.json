@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "toybox_minecraft",
+  "version": "${version}",
+  "name": "Toy Box Minecraft",
+  "description": "A living workshop for a Toy Box channel.",
+  "authors": [
+    "Toy Box contributors",
+    "AgentCraft contributors (upstream)"
+  ],
+  "license": "MIT",
+  "icon": "assets/toybox_minecraft/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.toybox.minecraft.ToyBoxMinecraft"
+    ],
+    "client": [
+      "dev.toybox.minecraft.client.ToyBoxMinecraftClient"
+    ]
+  },
+  "mixins": [
+    "toybox_minecraft.mixins.json",
+    {
+      "config": "toybox_minecraft.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "variants": {
+    "facing=north,part=0": {
+      "model": "toybox_minecraft:block/wordmark_0"
+    },
+    "facing=east,part=0": {
+      "model": "toybox_minecraft:block/wordmark_0",
+      "y": 90
+    },
+    "facing=south,part=0": {
+      "model": "toybox_minecraft:block/wordmark_0",
+      "y": 180
+    },
+    "facing=west,part=0": {
+      "model": "toybox_minecraft:block/wordmark_0",
+      "y": 270
+    },
+    "facing=north,part=1": {
+      "model": "toybox_minecraft:block/wordmark_1"
+    },
+    "facing=east,part=1": {
+      "model": "toybox_minecraft:block/wordmark_1",
+      "y": 90
+    },
+    "facing=south,part=1": {
+      "model": "toybox_minecraft:block/wordmark_1",
+      "y": 180
+    },
+    "facing=west,part=1": {
+      "model": "toybox_minecraft:block/wordmark_1",
+      "y": 270
+    },
+    "facing=north,part=2": {
+      "model": "toybox_minecraft:block/wordmark_2"
+    },
+    "facing=east,part=2": {
+      "model": "toybox_minecraft:block/wordmark_2",
+      "y": 90
+    },
+    "facing=south,part=2": {
+      "model": "toybox_minecraft:block/wordmark_2",
+      "y": 180
+    },
+    "facing=west,part=2": {
+      "model": "toybox_minecraft:block/wordmark_2",
+      "y": 270
+    },
+    "facing=north,part=3": {
+      "model": "toybox_minecraft:block/wordmark_3"
+    },
+    "facing=east,part=3": {
+      "model": "toybox_minecraft:block/wordmark_3",
+      "y": 90
+    },
+    "facing=south,part=3": {
+      "model": "toybox_minecraft:block/wordmark_3",
+      "y": 180
+    },
+    "facing=west,part=3": {
+      "model": "toybox_minecraft:block/wordmark_3",
+      "y": 270
+    },
+    "facing=north,part=4": {
+      "model": "toybox_minecraft:block/wordmark_4"
+    },
+    "facing=east,part=4": {
+      "model": "toybox_minecraft:block/wordmark_4",
+      "y": 90
+    },
+    "facing=south,part=4": {
+      "model": "toybox_minecraft:block/wordmark_4",
+      "y": 180
+    },
+    "facing=west,part=4": {
+      "model": "toybox_minecraft:block/wordmark_4",
+      "y": 270
+    },
+    "facing=north,part=5": {
+      "model": "toybox_minecraft:block/wordmark_5"
+    },
+    "facing=east,part=5": {
+      "model": "toybox_minecraft:block/wordmark_5",
+      "y": 90
+    },
+    "facing=south,part=5": {
+      "model": "toybox_minecraft:block/wordmark_5",
+      "y": 180
+    },
+    "facing=west,part=5": {
+      "model": "toybox_minecraft:block/wordmark_5",
+      "y": 270
+    },
+    "facing=north,part=6": {
+      "model": "toybox_minecraft:block/wordmark_6"
+    },
+    "facing=east,part=6": {
+      "model": "toybox_minecraft:block/wordmark_6",
+      "y": 90
+    },
+    "facing=south,part=6": {
+      "model": "toybox_minecraft:block/wordmark_6",
+      "y": 180
+    },
+    "facing=west,part=6": {
+      "model": "toybox_minecraft:block/wordmark_6",
+      "y": 270
+    },
+    "facing=north,part=7": {
+      "model": "toybox_minecraft:block/wordmark_7"
+    },
+    "facing=east,part=7": {
+      "model": "toybox_minecraft:block/wordmark_7",
+      "y": 90
+    },
+    "facing=south,part=7": {
+      "model": "toybox_minecraft:block/wordmark_7",
+      "y": 180
+    },
+    "facing=west,part=7": {
+      "model": "toybox_minecraft:block/wordmark_7",
+      "y": 270
+    },
+    "facing=north,part=8": {
+      "model": "toybox_minecraft:block/wordmark_8"
+    },
+    "facing=east,part=8": {
+      "model": "toybox_minecraft:block/wordmark_8",
+      "y": 90
+    },
+    "facing=south,part=8": {
+      "model": "toybox_minecraft:block/wordmark_8",
+      "y": 180
+    },
+    "facing=west,part=8": {
+      "model": "toybox_minecraft:block/wordmark_8",
+      "y": 270
+    },
+    "facing=north,part=9": {
+      "model": "toybox_minecraft:block/wordmark_9"
+    },
+    "facing=east,part=9": {
+      "model": "toybox_minecraft:block/wordmark_9",
+      "y": 90
+    },
+    "facing=south,part=9": {
+      "model": "toybox_minecraft:block/wordmark_9",
+      "y": 180
+    },
+    "facing=west,part=9": {
+      "model": "toybox_minecraft:block/wordmark_9",
+      "y": 270
+    },
+    "facing=north,part=10": {
+      "model": "toybox_minecraft:block/wordmark_10"
+    },
+    "facing=east,part=10": {
+      "model": "toybox_minecraft:block/wordmark_10",
+      "y": 90
+    },
+    "facing=south,part=10": {
+      "model": "toybox_minecraft:block/wordmark_10",
+      "y": 180
+    },
+    "facing=west,part=10": {
+      "model": "toybox_minecraft:block/wordmark_10",
+      "y": 270
+    },
+    "facing=north,part=11": {
+      "model": "toybox_minecraft:block/wordmark_11"
+    },
+    "facing=east,part=11": {
+      "model": "toybox_minecraft:block/wordmark_11",
+      "y": 90
+    },
+    "facing=south,part=11": {
+      "model": "toybox_minecraft:block/wordmark_11",
+      "y": 180
+    },
+    "facing=west,part=11": {
+      "model": "toybox_minecraft:block/wordmark_11",
+      "y": 270
+    },
+    "facing=north,part=12": {
+      "model": "toybox_minecraft:block/wordmark_12"
+    },
+    "facing=east,part=12": {
+      "model": "toybox_minecraft:block/wordmark_12",
+      "y": 90
+    },
+    "facing=south,part=12": {
+      "model": "toybox_minecraft:block/wordmark_12",
+      "y": 180
+    },
+    "facing=west,part=12": {
+      "model": "toybox_minecraft:block/wordmark_12",
+      "y": 270
+    },
+    "facing=north,part=13": {
+      "model": "toybox_minecraft:block/wordmark_13"
+    },
+    "facing=east,part=13": {
+      "model": "toybox_minecraft:block/wordmark_13",
+      "y": 90
+    },
+    "facing=south,part=13": {
+      "model": "toybox_minecraft:block/wordmark_13",
+      "y": 180
+    },
+    "facing=west,part=13": {
+      "model": "toybox_minecraft:block/wordmark_13",
+      "y": 270
+    },
+    "facing=north,part=14": {
+      "model": "toybox_minecraft:block/wordmark_14"
+    },
+    "facing=east,part=14": {
+      "model": "toybox_minecraft:block/wordmark_14",
+      "y": 90
+    },
+    "facing=south,part=14": {
+      "model": "toybox_minecraft:block/wordmark_14",
+      "y": 180
+    },
+    "facing=west,part=14": {
+      "model": "toybox_minecraft:block/wordmark_14",
+      "y": 270
+    },
+    "facing=north,part=15": {
+      "model": "toybox_minecraft:block/wordmark_15"
+    },
+    "facing=east,part=15": {
+      "model": "toybox_minecraft:block/wordmark_15",
+      "y": 90
+    },
+    "facing=south,part=15": {
+      "model": "toybox_minecraft:block/wordmark_15",
+      "y": 180
+    },
+    "facing=west,part=15": {
+      "model": "toybox_minecraft:block/wordmark_15",
+      "y": 270
+    },
+    "facing=north,part=16": {
+      "model": "toybox_minecraft:block/wordmark_16"
+    },
+    "facing=east,part=16": {
+      "model": "toybox_minecraft:block/wordmark_16",
+      "y": 90
+    },
+    "facing=south,part=16": {
+      "model": "toybox_minecraft:block/wordmark_16",
+      "y": 180
+    },
+    "facing=west,part=16": {
+      "model": "toybox_minecraft:block/wordmark_16",
+      "y": 270
+    },
+    "facing=north,part=17": {
+      "model": "toybox_minecraft:block/wordmark_17"
+    },
+    "facing=east,part=17": {
+      "model": "toybox_minecraft:block/wordmark_17",
+      "y": 90
+    },
+    "facing=south,part=17": {
+      "model": "toybox_minecraft:block/wordmark_17",
+      "y": 180
+    },
+    "facing=west,part=17": {
+      "model": "toybox_minecraft:block/wordmark_17",
+      "y": 270
+    }
+  }
+}

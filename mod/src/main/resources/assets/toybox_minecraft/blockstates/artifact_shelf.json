@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "toybox_minecraft:block/artifact_shelf"
+    },
+    "facing=east": {
+      "model": "toybox_minecraft:block/artifact_shelf",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "toybox_minecraft:block/artifact_shelf",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "toybox_minecraft:block/artifact_shelf",
+      "y": 270
+    }
+  }
+}
